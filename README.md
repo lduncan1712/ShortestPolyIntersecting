@@ -1,10 +1,8 @@
 # ShortestPolyIntersecting
 
-## A Mini-Project To Determine The Shortest LineString Between A Set Of Lines In A 2D Plane.
+## A Mini-Project To Determine The Shortest LineString That Intersects A Set Of Lines In A 2D Plane If Possible
 
-### Lines In A 2D Plane Arent Guarenteed To All Intersect Through A LineSegment, See Simple Case Below
-
-###       ---------------------------
-###                                       ------------------
-###       --------------------------
+### NOTE: Geometrically, there are cases where there is no solution (see below example),
+###       ----- -----
+###       --
 
