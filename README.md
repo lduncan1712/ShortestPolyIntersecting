@@ -22,3 +22,8 @@
 - Return Smallest Such Line That Is Confirmed To Intersect All Lines
 
 
+
+### Setup + Usage:
+#### Takes In A List Of Shapely LineStrings, Returns Either A LineString, Point, or None
+
+
