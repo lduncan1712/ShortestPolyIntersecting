@@ -51,5 +51,7 @@
 ### FINAL NOTES:
 ### This was built as part of my "LocEstimation" Repository, and as such was built for cases of 2-8 non infinite linestrings, approximately the same length. It is possible that there are geometric cases of line relative location that I have not yet encountered.
 
+### Additionally, shapely is float based, meaning i experienced alot of problems of loss of percision even between shapely operations, for this reason, you will note ive re-implemented several functions relating to intersections
+
 
 
