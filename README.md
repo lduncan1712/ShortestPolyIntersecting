@@ -23,11 +23,12 @@
 - This Leaves An "Inner" Polygon, All Of Whose Outer Edges Touching The Convexed Polygon Could Contain A Line Intersecting All
 - Determine All Polygons That Could Contain Outer EndPoints Of Shortest Line:
     - Any Edges In Inner Overlapping Lines
-    - Any Polygons Bounded By "Inner" Polygons Outer Edge, And One Of More Lines
+    - Any Polygons Bounded By "Inner" Polygons Outer Edge, And One Or More Lines
 - For All Combinations Of These Possible Endpoint Polygons:
     - Determine The Ideal Slope Of A Line Between Them
     - If This Line Isnt Intersected By Invalid Area (red), use it
     - Otherwise, Move To Each Vertice Of Red, And Extend Slope From It
+    - If this line doesnt intersect (1) other line, point to its closest point and extend the slope outwards from it
     - Add Valid Lines Given As Attempts
 - Given All Attempts:
     - Return the shortest, if exists
@@ -36,5 +37,11 @@
 
 ### Setup + Usage:
 #### Takes In A List Of Shapely LineStrings, Returns Either A LineString, Point, or None
+
+
+
+### FINAL NOTES:
+### This was built as part of my "LocEstimation" Repository, and as such was built for cases of 2-8 non infinite linestrings, approximately the same length. It is possible that there are geometric cases of line relative location that I have not yet discovered.
+
 
 
