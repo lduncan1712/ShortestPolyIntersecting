@@ -21,7 +21,7 @@
 - Create A Convex Hull Of The Lines ("Outer" Polygon)
 - Remove Area From Outer That Any Line Going Through Cannot Geometrically Intersect All Other Lines (Red)
 - This Leaves An "Inner" Polygon, All Of Whose Outer Edges Touching The Convexed Polygon Could Contain A Line Intersecting All
-- Determine All Polygons That Could Contain Outher EndPoints Of Shortest Line:
+- Determine All Polygons That Could Contain Outer EndPoints Of Shortest Line:
     - Any Edges In Inner Overlapping Lines
     - Any Polygons Bounded By "Inner" Polygons Outer Edge, And One Of More Lines
 - For All Combinations Of These Possible Endpoint Polygons:
