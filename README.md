@@ -8,7 +8,7 @@
 #### As The Returned Line Is The Shortest Intersecting Line Possible, Its Endoints Occur Either On One Of The Lines, Or The Intersection Of Multiple Lines
 
 
-
+![Example 1]()
 
 
 
