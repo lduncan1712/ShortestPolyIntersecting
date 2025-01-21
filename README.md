@@ -15,11 +15,23 @@
 
 
 ### Algorithm:
-- Determine All Polygons That Could Contain Outer Edges Of Line (green)
-- Determine The Ideal Slope Of Line Between Them
-  - If This Line Isnt Broken By Blocker (red): use it
-  - Otherwise: move to the vertice of Blocker and extend line from there
-- Return Smallest Such Line That Is Confirmed To Intersect All Lines
+-If 1 Line: return None
+-If 2 Lines:
+  -If they intersect: return point of intersection
+  -If not return line bounded by nearest points on either
+- Create A Convex Hull Of The Lines ("Outer" Polygon)
+- Remove Area From Outer That Any Line Going Through Cannot Geometrically Intersect All Other Lines (Red)
+- This Leaves An "Inner" Polygon, All Of Whose Outer Edges Touching The Convexed Polygon Could Contain A Line Intersecting All
+- Determine All Polygons That Could Contain Outher EndPoints Of Shortest Line:
+    - Any Edges In Inner Overlapping Lines
+    - Any Polygons Bounded By "Inner" Polygons Outer Edge, And One Of More Lines
+- For All Combinations Of These Possible Endpoint Polygons:
+    - Determine The Ideal Slope Of A Line Between Them
+    - If This Line Isnt Intersected By Invalid Area (red), use it
+    - Otherwise, Move To Each Vertice Of Red, And Extend Slope From It
+    - Add Valid Lines Given As Attempts
+- Given All Attempts:
+    - Return the shortest, if exists
 
 
 
