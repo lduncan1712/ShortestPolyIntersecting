@@ -37,11 +37,14 @@
 
 ### Setup + Usage:
 #### Takes In A List Of Shapely LineStrings, Returns Either A LineString, Point, or None
-
+```
+  cost(lines, visualize=False)
+```
+#### Provides An Optional "Visualize" Argument That Visualizes The Process (Also visualizes when no solution is found)
 
 
 ### FINAL NOTES:
-### This was built as part of my "LocEstimation" Repository, and as such was built for cases of 2-8 non infinite linestrings, approximately the same length. It is possible that there are geometric cases of line relative location that I have not yet discovered.
+### This was built as part of my "LocEstimation" Repository, and as such was built for cases of 2-8 non infinite linestrings, approximately the same length. It is possible that there are geometric cases of line relative location that I have not yet encountered.
 
 
 
