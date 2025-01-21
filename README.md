@@ -40,7 +40,9 @@
 ```
   cost(lines, visualize=False)
 ```
-#### Provides An Optional "Visualize" Argument That Visualizes The Process (Also visualizes when no solution is found)
+#### Provides An Optional "Visualize" Argument That Visualizes The Process (Also visualizes when no solution is found) For Cases That Might Appear Confusing
+
+![Example 3](https://github.com/lduncan1712/ShortestPolyIntersecting/blob/main/visuals/Screenshot%202025-01-20%2022801.png)
 
 
 ### FINAL NOTES:
