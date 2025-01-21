@@ -13,7 +13,7 @@
 
 
 
-### Algorithm:
+## Algorithm:
 - If 1 Line: return None
 - If 2 Lines:
   - If they intersect: return point of intersection
@@ -35,7 +35,7 @@
 
 
 
-### Setup + Usage:
+## Setup + Usage:
 #### Takes In A List Of Shapely LineStrings, Returns Either A LineString, Point, or None
 ```
   cost(lines, visualize=False)
