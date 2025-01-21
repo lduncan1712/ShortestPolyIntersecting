@@ -44,6 +44,8 @@
 - Orange: Valid Solutions
 - Yellow: Invalid Solutions
 - Black: Best Solution
+- Green: Possible Outer Polygons
+- Red: Invalid Outer Polygons
 
 ![Example 3](https://github.com/lduncan1712/ShortestPolyIntersecting/blob/main/visuals/Screenshot%202025-01-20%20220801.png)
 
