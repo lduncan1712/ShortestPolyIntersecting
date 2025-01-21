@@ -7,9 +7,9 @@
 
 #### As The Returned Line Is The Shortest Intersecting Line Possible, Its Endoints Occur Either On One Of The Lines, Or The Intersection Of Multiple Lines
 
+<img src="https://github.com/lduncan1712/ShortestPolyIntersecting/blob/main/visuals/Screenshot%202025-01-20%20213842.png" alt="Example 1" width="500">
+<img src="https://github.com/lduncan1712/ShortestPolyIntersecting/blob/main/visuals/Screenshot%202025-01-20%20214300.png" alt="Example 2" width="500">
 
-![Example 1](https://github.com/lduncan1712/ShortestPolyIntersecting/blob/main/visuals/Screenshot%202025-01-20%20213842.png)
-![Example 3](https://github.com/lduncan1712/ShortestPolyIntersecting/blob/main/visuals/Screenshot%202025-01-20%20214300.png)
 
 
 
