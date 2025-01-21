@@ -14,10 +14,10 @@
 
 
 ### Algorithm:
--If 1 Line: return None
--If 2 Lines:
-  -If they intersect: return point of intersection
-  -If not return line bounded by nearest points on either
+- If 1 Line: return None
+- If 2 Lines:
+  - If they intersect: return point of intersection
+  - If not return line bounded by nearest points on either
 - Create A Convex Hull Of The Lines ("Outer" Polygon)
 - Remove Area From Outer That Any Line Going Through Cannot Geometrically Intersect All Other Lines (Red)
 - This Leaves An "Inner" Polygon, All Of Whose Outer Edges Touching The Convexed Polygon Could Contain A Line Intersecting All
